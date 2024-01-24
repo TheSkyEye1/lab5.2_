@@ -7,6 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Canvas x:Name="scene" HorizontalAlignment="Left" Height="400" Margin="20,20,0,0" VerticalAlignment="Top" Width="600" Background="#FFC7EABF"/>
+        <Button Content="Save the planet" HorizontalAlignment="Left" Height="36" Margin="640,20,0,0" VerticalAlignment="Top" Width="140" Click="Button_Click"/>
+        <Label x:Name="iterLB" Content="Iteration:" HorizontalAlignment="Left" Margin="640,100,0,0" VerticalAlignment="Top" Width="138"/>
+        <Label x:Name="unchitLB" Content="Unchanged Iter:" HorizontalAlignment="Left" Margin="640,130,0,0" VerticalAlignment="Top" Width="138"/>
+        <Label x:Name="treesLB" Content="Trees:" HorizontalAlignment="Left" Margin="640,70,0,0" VerticalAlignment="Top" Width="138"/>
+
     </Grid>
 </Window>
